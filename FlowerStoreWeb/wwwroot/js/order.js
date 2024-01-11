@@ -18,7 +18,7 @@ function loadDataTable() {
                 "render": function (data) {
                     return `<div class="w-75 btn-group" role="group">
                             <a href="/admin/order/details?orderHeaderId=${data}" class="btn btn-primary mx-2 ">
-                            <i class="bi bi-pen"></i>  
+                            <i class="bi bi-pen"></i>Edit  
                             </a>
                 </div>`
                 }
